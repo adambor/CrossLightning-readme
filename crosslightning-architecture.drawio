@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" modified="2023-08-15T17:05:01.228Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="3PAJ7XwM1jaBRxEXl7a5" version="21.6.8" type="device">
+  <diagram name="Page-1" id="gxqn1to2C_gvM4aDI9-d">
+    <mxGraphModel dx="1133" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-2" value="&lt;b&gt;crosslightning-sdk-base&lt;br&gt;&lt;/b&gt;(Chain abstracted sdk functionality)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-4" value="&lt;b&gt;crosslightning-intermediary&lt;br&gt;&lt;/b&gt;(Chain abstracted Intermediary node functionality)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="575" y="320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-5" value="&lt;b&gt;btcrelay-bitcoind&lt;br&gt;&lt;/b&gt;(Bitcoind RPC connector and synchronizer implementation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="760" y="320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-6" value="&lt;b&gt;crosslightning-solana&lt;br&gt;&lt;/b&gt;(Solana-specific implementation)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="230" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-7" value="SolLightning-sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="400" y="230" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-8" value="btcrelay-sol-ts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="760" y="270" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-9" value="SolLightning-Intermediary-ts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="575" y="230" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="310" as="sourcePoint" />
+            <mxPoint x="210" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-15" value="&lt;b&gt;crosslightning-evm&lt;br&gt;&lt;/b&gt;(EVM-specific implementation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="220" y="140" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="130" as="sourcePoint" />
+            <mxPoint x="210" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-23" value="LineaLightning-sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="400" y="190" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-24" value="btcrelay-evm-ts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="760" y="180" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-25" value="EVMLightning-intermediary-ts" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="575" y="140" width="355" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-30" value="&lt;b&gt;crosslightning-sdk-base&lt;br&gt;&lt;/b&gt;(Chain abstracted sdk functionality)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="400" y="320" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-31" value="&lt;b&gt;crosslightning-solana&lt;br&gt;&lt;/b&gt;(Solana-specific implementation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="220" y="230" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-32" value="&lt;b&gt;crosslightning-base&lt;br&gt;&lt;/b&gt;(Base interfaces and classes for crosslightning)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="400" y="410" width="715" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="40" y="360" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="40" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-35" value="&lt;b&gt;Final products&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="355" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-36" value="&lt;b&gt;Libs contained in crosslightning-libs&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="63" y="385" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eD0Ezld50O2-OyB7pNrv-39" value="&lt;b&gt;btcrelay-watchtower&lt;br&gt;&lt;/b&gt;(Chain abstracted watchtower implementation)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="945" y="320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wq95cg5BUCzo2gpPvdva-1" value="&lt;div&gt;&lt;b&gt;Libs contained in btcrelay-libs&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="61" y="415" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wq95cg5BUCzo2gpPvdva-2" value="&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="40" y="420" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wq95cg5BUCzo2gpPvdva-3" value="&lt;b&gt;crosslightning-base&lt;br&gt;&lt;/b&gt;(Base interfaces and classes for crosslightning)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="400" y="410" width="715" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wq95cg5BUCzo2gpPvdva-4" value="&lt;b&gt;crosslightning-intermediary&lt;br&gt;&lt;/b&gt;(Chain abstracted Intermediary node functionality)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="575" y="320" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zbh_-7RCMu89Xws2p8mF-1" value="QLightning-sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zbh_-7RCMu89Xws2p8mF-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;jumpSize=6;startSize=6;targetPerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="184" as="sourcePoint" />
+            <mxPoint x="480" y="164" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
